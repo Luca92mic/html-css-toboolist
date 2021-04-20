@@ -26,16 +26,15 @@ main {
 
 /* sezione bottoni */
 .section-button {
-    padding: 30px;
+    padding: 20px;
     border-bottom: 2px solid #f6f8f9;
 }
 
 .b-blue {
     background-color: #47adf1;
-    border: none;
-    border-radius: 12px;
+    border-radius: 6px;
     color: white;
-    padding: 15px 30px;
+    padding: 10px 25px;
     text-align: center;
     font-size: 15px;
 }
@@ -43,11 +42,28 @@ main {
 .b-white {
     background-color: #ffffff;
     border: 2px solid grey;
-    border-radius: 12px;
+    border-radius: 6px;
     color: grey;
-    padding: 15px 30px;
+    padding: 10px 25px;
     text-align: center;
     font-size: 15px;
 }
 
+/* bottoni lista */
+.editorial {
+    background-color: #47adf1;
+    border-radius: 6px;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+}
+
 /* sezione lista */
+
+.title-ul{
+    font-weight: bold;
+    font-size: 20px;
+}
+
