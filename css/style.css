@@ -20,9 +20,10 @@ main {
     background-color: #ffffff;
 }
 
-.button-add {
+.section-button {
     padding: 30px;
     border-radius: 50px;
+    border-bottom: 2px solid #f6f8f9;
 }
 
 .b-blue {
@@ -39,7 +40,7 @@ main {
     background-color: #ffffff;
     border: 2px solid grey;
     border-radius: 12px;
-    color: #grey;
+    color: grey;
     padding: 15px 30px;
     text-align: center;
     font-size: 15px;
