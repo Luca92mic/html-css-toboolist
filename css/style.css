@@ -118,3 +118,34 @@ main {
     font-size: 20px;
 }
 
+.title-ul::before{
+    content: '\25BC';
+}
+
+ul{
+    list-style-type: none;
+}
+
+.negative::before{
+    content: '\2717';
+    border: 2px solid red;
+    color: red;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.positive::before{
+    content: '\2713';
+    border: 2px solid green;
+    color: green;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
