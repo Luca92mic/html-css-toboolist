@@ -113,6 +113,10 @@ main {
 
 /* sezione lista */
 
+.section-list {
+    line-height: 40px;
+}
+
 .title-ul{
     font-weight: bold;
     font-size: 20px;
@@ -124,6 +128,11 @@ main {
 
 ul{
     list-style-type: none;
+}
+
+li{
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .negative::before{
