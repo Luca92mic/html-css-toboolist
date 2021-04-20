@@ -1,28 +1,31 @@
+/* body */
 body {
     background-color: #f6f8f9;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
+/* logo */
 header {
     background-color: #ffffff;
-}
-
-h1 {
-    display: inline-block;
-}
-
-#logo {
     padding-left: 20px;
 }
 
+#nome {
+    display: inline-block;
+    font-size: 40px;
+    vertical-align: 10px;
+}
+
+/* main */
 main {
     width: 50%;
     margin: 30px auto;
     background-color: #ffffff;
+    border-radius: 5px;
 }
 
+/* sezione bottoni */
 .section-button {
     padding: 30px;
-    border-radius: 50px;
     border-bottom: 2px solid #f6f8f9;
 }
 
@@ -45,3 +48,5 @@ main {
     text-align: center;
     font-size: 15px;
 }
+
+/* sezione lista */
