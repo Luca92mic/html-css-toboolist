@@ -1,0 +1,21 @@
+body {
+    background-color: #f6f8f9;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+h1 {
+    display: inline-block;
+    font-family: roboto;
+}
+
+#logo {
+    padding-left: 20px;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+}
