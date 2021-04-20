@@ -1,6 +1,6 @@
 body {
     background-color: #f6f8f9;
-}
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 header {
     background-color: #ffffff;
@@ -8,7 +8,6 @@ header {
 
 h1 {
     display: inline-block;
-    font-family: roboto;
 }
 
 #logo {
@@ -17,5 +16,31 @@ h1 {
 
 main {
     width: 50%;
-    margin: 0 auto;
+    margin: 30px auto;
+    background-color: #ffffff;
+}
+
+.button-add {
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.b-blue {
+    background-color: #47adf1;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.b-white {
+    background-color: #ffffff;
+    border: 2px solid grey;
+    border-radius: 12px;
+    color: #grey;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 15px;
 }
